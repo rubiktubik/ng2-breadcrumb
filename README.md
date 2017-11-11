@@ -1,4 +1,6 @@
-# ng2-breadcrumb
+# ngx-breadcrumb
+Forked from ng2-breadcrumb and the problem that the original version doesn't work with angular 4.4+. Especially with AOT :-(.
+
 This component generates a breadcrumb trail, as you navigate to child routes using the @angular/router. It interprets the browser URL of a navigate request, 
 in the same way the component router does to match a path to a specific component, to build up a hierarchy of available parent/child routes for that destination.
 
