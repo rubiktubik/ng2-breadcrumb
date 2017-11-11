@@ -1,6 +1,6 @@
 {
-  "name": "ng2-breadcrumb",
-  "version": "0.5.14",
+  "name": "ngx-breadcrumb",
+  "version": "0.1.0",
   "description": "A component that creates a breadcrumb trail for router paths",
   "scripts": {
     "start": "tsc && concurrently \"npm run ngc\" \"npm run lite\" ",
@@ -8,17 +8,17 @@
     "tsc": "ngc -w",
     "ngc": "ngc",
     "build": "ngc",
-    "bundles": "ngc -m system --rootDir ./app --outFile ./bundles/ng2-breadcrumb.js",
+    "bundles": "ngc -m system --rootDir ./app --outFile ./bundles/ngx-breadcrumb.js",
     "build:aot": "rimraf bundles && ngc -p tsconfig-aot.json"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gmostert/ng2-breadcrumb.git"
+    "url": "https://github.com/rubiktubik/ngx-breadcrumb.git"
   },
   "keywords": [
-    "angular2"
+    "angular4"
   ],
-  "author": "Gerhard Mostert",
+  "author": "Originaly from Gerhard Mostert, modified from Michael Tissen",
   "license": "MIT",
   "main": "bundles/app.module.js",
   "typings": "bundles/app.module.d.ts",
